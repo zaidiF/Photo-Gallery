@@ -1,0 +1,37 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+/*for container class*/
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 40px 20px 0 20px;
+}
+/*for heading class which inside another class*/
+.container .heading {
+  width: 50%;
+  padding-bottom: 50px;
+}
+/*for heading class which inside another class(for heading)*/
+.container .heading h3 {
+  font-size: 3em;
+  font-weight: bolder;
+  padding-bottom: 10px;
+  border-bottom: 3px solid #222;
+}
+/*for heading class which inside another class(for span)*/
+.container .heading h3 span {
+  font-weight: 100;
+}
+
+.container .box {
+  display: flex;
+}
